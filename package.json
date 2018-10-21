@@ -1,22 +1,22 @@
 {
-  "name": "koalerplate",
-  "homepage": "https://github.com/dbalas/koalerplate.git",
-  "description": "A simple Koa 2 boilerplate for API's using ES6.",
+  "name": "thermostat-backend",
+  "homepage": "",
+  "description": "a backend for an arduino thermostat project",
   "bugs": {
-    "url": "https://github.com/dbalas/koalerplate/issues/new"
+    "url": ""
   },
   "keywords": [
+    "arduino",
     "koa",
     "koa2",
-    "boilerplate",
-    "koalerplate",
+    "node",
     "api",
     "es6"
   ],
-  "repository": "git@github.com:dbalas/koalerplate.git",
-  "author": "Daniel Balastegui",
+  "repository": "",
+  "author": "Oscar Suarez",
   "license": "MIT",
-  "version": "1.2.2",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index",
@@ -31,7 +31,8 @@
     "koa-helmet": "^4.0.0",
     "koa-logger": "^3.2.0",
     "koa-respond": "^1.0.1",
-    "koa-router": "^7.4.0"
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.3.4"
   },
   "devDependencies": {
     "nodemon": "^1.18.4"
