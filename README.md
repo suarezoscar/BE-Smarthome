@@ -44,6 +44,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## Authors
 
 * **Daniel Balastegui** - *Initial work* - [dbalas](https://github.com/dbalas)
+* **Oscar Suarez** - *Current work* - [suarezoscar](https://github.com/suarezoscar)
 
 ## License
 
