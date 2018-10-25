@@ -31,6 +31,7 @@ async function setTriggerTemp(ctx) {
 async function setCurrentTemp(ctx) {
   const thermostat = await Thermostat.findById(DEFAULT_ID);
   thermostat.currentTemp = ctx.params.temp;
+  thermostat.isActive = thermostat.currentTemp < thermostat.triggerTemp;
   ctx.body = await thermostat.save();
 }
 
